@@ -1,0 +1,17 @@
+very similiar to c from first year;
+when printing variables, gotta %d, %s, %f
+
+lists;
+add things to lists with append:
+
+mylist = []
+
+mylist.append(1)
+
+mylist.append(2) ...
+
+
+Accessing an index which does not exist generates an exception (an error).
+mylist = [1,2,3]
+
+print(mylist[10]) .... not in range error
